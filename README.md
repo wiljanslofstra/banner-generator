@@ -19,7 +19,7 @@ There was an added bonus by creating this application. It gave me the opportunit
 
 ## Installation
 ```bash
-npm install banner-generator -g
+npm install banner-generator-cli -g
 ```
 
 ## Usage
