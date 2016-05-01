@@ -1,5 +1,5 @@
 {
-  "name": "banner-generator-cli",
+  "name": "banner-generator",
   "version": "0.2.0",
   "description": "Create HTML5 banners for AdWords from given images",
   "main": "lib/index.js",
@@ -33,5 +33,10 @@
   },
   "bin": {
     "banner-generator": "./bin/banner-generator"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/wiljanslofstra/banner-generator/issues",
+    "email": "wiljanslofstra@gmail.com"
+  },
+  "repository": "wiljanslofstra/banner-generator"
 }
