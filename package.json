@@ -1,19 +1,28 @@
 {
   "name": "banner-generator-cli",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Create HTML5 banners for AdWords from given images",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --require babel-core/register",
     "lint": "eslint ."
   },
-  "keywords": ["banners", "adwords", "cli", "node", "html5"],
+  "keywords": [
+    "banners",
+    "adwords",
+    "cli",
+    "node",
+    "html5"
+  ],
   "author": "Wiljan Slofstra <wiljanslofstra@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "babel-core": "^6.7.7",
+    "chai": "^3.5.0",
     "eslint": "^2.4.0",
     "eslint-config-airbnb": "^6.1.0",
-    "eslint-plugin-react": "^4.2.3"
+    "eslint-plugin-react": "^4.2.3",
+    "mocha": "^2.4.5"
   },
   "dependencies": {
     "commander": "^2.9.0",

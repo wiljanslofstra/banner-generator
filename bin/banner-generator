@@ -14,6 +14,8 @@ program
   .option('-s, --size <value>', 'Format of the banner. e.g. 728x90 (required)')
   .option('-f, --files <value>', 'List of files seperated by commas (required)')
   .option('-u, --urls <value>', 'List of exit urls seperated by commas (required)')
+  .option('-o, --output <value>', 'Output filename (default: banners)')
+  .option('-t, --template <value>', 'Template name (default: swipe-gallery)')
   .action(creator);
 
 program.parse(process.argv);
