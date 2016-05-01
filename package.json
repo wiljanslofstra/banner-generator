@@ -1,6 +1,6 @@
 {
   "name": "banner-generator",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Create HTML5 banners for AdWords from given images",
   "main": "lib/index.js",
   "scripts": {
